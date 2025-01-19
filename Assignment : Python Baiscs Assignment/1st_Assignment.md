@@ -2,7 +2,7 @@
 
 
 
-1Q:- Explain the key features of Python that make it a popular choice for programming.
+**1Q:- Explain the key features of Python that make it a popular choice for programming.**
 
 Ans:- 
 * Python is easy to learn. 
@@ -12,9 +12,9 @@ Ans:-
 
 * Python is already a prominent language in the industry, making it attractive for beginners.
 
-2Q:- Describe the role of predefined keywords
+**2Q:- Describe the role of predefined keywords
  in Python and provide examples of
-how they are used in a program. 
+how they are used in a program.**
 
 Ans:- Predefined keywords are commands/functions that are inbuilt and cater to pre-specified 
 task.   
@@ -37,9 +37,9 @@ print("x is less than 5")
 we see that we use if-else statement to print conditional statements.
 It leverages predefined meaning of if-else syntax to execute it.
 
-3Q:- Compare and contrast mutable and immutable objects in Python with examples.
-Ans:- 
-Mutable Objects are those objects which can be changed after they are created. Changes to the object do not result in a new object being created.
+**3Q:- Compare and contrast mutable and immutable objects in Python with examples.**
+
+Ans:- Mutable Objects are those objects which can be changed after they are created. Changes to the object do not result in a new object being created.
 For example, Set, Dictionary, List.
 ```
 A = [1,2,3,’Ravi’]
@@ -55,7 +55,8 @@ A[2] = ‘a’
 ```
 This will give an error since it is immutable.
 
-4Q:- Discuss the different types of operators in Python and provide examples of how they are used.
+**4Q:- Discuss the different types of operators in Python and provide examples of how they are used.**  
+
 Ans:- Pythons have various types of operators. Following is a list of few of them along with their operation.
 1.	Arithmetic Operators:- ‘+’,’-’,’/’,’%’ etc. are known as Arithmetic operators. 
 They assist us in doing basic arithmetic calculations such as addition, subtraction, multiplication etc.
@@ -109,7 +110,7 @@ print(f'Are a and b the same object? {a is b}')
 ```
 	Output: Are a and b the same object? False
 
-5Q:- Explain the concept of type casting in Python with examples.
+**5Q:- Explain the concept of type casting in Python with examples.**
 Ans:- Concept of Type Casting in Python
 Type casting in Python refers to converting a variable from one data type to another. This is helpful when working with mixed data types or when a specific type is required for an operation. For example, if we have a string ‘2’ then we cannot use this directly in a arithmetic operation. For that, we will need to cast it into an int type variable.
 Before casting it, it will a string object
@@ -121,7 +122,7 @@ After casting it, it will be an int object.
 ```
 Int(A) 
 ```
-6Q:- How do conditional statements work in Python? Illustrate with examples.
+**6Q:- How do conditional statements work in Python? Illustrate with examples.**
 Ans:- Conditional statements in Python are used to execute certain blocks of code based on specific conditions. If-else,if-elif-else statement are example of  conditional statements. 
 Take the example of if-else statement:
 ```
@@ -137,10 +138,9 @@ Here, we have defined x = 7.
 Our conditional statement will take x value and subject it to the conditions given in the if, elif, else block order-wise and print the respective output if the right condition is met.
 Output: x is greater than 5 but less than or equal to 10
 
-7Q: Describe the different types of loops in Python and their use cases with examples.
+**7Q: Describe the different types of loops in Python and their use cases with examples.**  
 Ans:- We have 2 loops in python: 
 For loop, While loop.
-
 In ‘For loop’ we specify the initialization,steps and end point at the beginning of the block.
 
 Eg:- 
