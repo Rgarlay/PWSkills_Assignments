@@ -82,7 +82,7 @@ Eg:
 a, b = 4, 8 
 print(f'Is {a} less than {b} and {b} greater than 10? {(a < b) and (b > 10)}')
 ```
-	Output:- Is 4 less than 8 and 8 greater than 10? False
+Output:- Is 4 less than 8 and 8 greater than 10? False
 4.	Bitwise Operators: &, |, ^, ~, <<, >> are known as bitwise operators. They operate on integers at the binary level, performing bit-by-bit calculations.
 Eg:
 ```
@@ -99,7 +99,8 @@ x = 10
 x += 5  
 print(f'Updated value of x is {x}')  
 ```
-	Output: Updated value of x is 15
+
+Output: Updated value of x is 15
 
 6.	Identity Operators: is, is not are known as identity operators.
 They check whether two variables refer to the same object in memory.
@@ -108,9 +109,9 @@ Eg:
 a, b = [1, 2], [1, 2]
 print(f'Are a and b the same object? {a is b}')
 ```
-	Output: Are a and b the same object? False
+Output: Are a and b the same object? False
 
-**5Q:- Explain the concept of type casting in Python with examples.**
+**5Q:- Explain the concept of type casting in Python with examples.**  
 Ans:- Concept of Type Casting in Python
 Type casting in Python refers to converting a variable from one data type to another. This is helpful when working with mixed data types or when a specific type is required for an operation. For example, if we have a string ‘2’ then we cannot use this directly in a arithmetic operation. For that, we will need to cast it into an int type variable.
 Before casting it, it will a string object
@@ -122,7 +123,7 @@ After casting it, it will be an int object.
 ```
 Int(A) 
 ```
-**6Q:- How do conditional statements work in Python? Illustrate with examples.**
+**6Q:- How do conditional statements work in Python? Illustrate with examples.**  
 Ans:- Conditional statements in Python are used to execute certain blocks of code based on specific conditions. If-else,if-elif-else statement are example of  conditional statements. 
 Take the example of if-else statement:
 ```
@@ -142,7 +143,6 @@ Output: x is greater than 5 but less than or equal to 10
 Ans:- We have 2 loops in python: 
 For loop, While loop.
 In ‘For loop’ we specify the initialization,steps and end point at the beginning of the block.
-
 Eg:- 
 ```
 	for I in rage(10):
@@ -150,7 +150,7 @@ Eg:-
 	i = i+1	
 ```
 The while loop repeatedly executes a block of code as long as a given condition evaluates to True. We specify our end condition and then let the block of loop run till the condtion specified is met.
-	Eg:- 
+Eg:- 
 ```
 		X = 0
 	While X<= 5:
