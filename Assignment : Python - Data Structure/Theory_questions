@@ -1,0 +1,112 @@
+**1Q:- What are data structures, and why are they important?**  
+
+Ans:- Data structure are a way of storing and organizing the data in programming language, so that it can later be retrieved and manipulated efficiently.
+Having the knowledge of data structures allows us to handle the data in easy computationally and timely manner.
+
+**2Q: - Explain the difference between mutable and immutable data types with examples.**  
+
+Ans: - Mutable Data is data which can be altered even after its defined. For example, we can add or delete data from lists, sets, dictionary after defining them as per our convenience.
+Immutable Data is data which cannot be changed/updated once its defined.
+For example, strings, numbers, tuples cannot be changed once they are defined.
+Note that we can use immutable data in operations like extend, concatenate etc. but we cannot change the original data itself.
+
+**3Q:- What are the main differences between lists and tuples in Python.**
+
+Ans:- List and tuple both are used in storing sequential data. 
+But they differ in few prospects.
+Lists are mutable. Tuples are immutable. 
+Lists are defined with square brackets. Tuples are defined with round parentheses.
+4Q:- Describe how dictionaries store data.
+Ans:- We define dictionaries with curly braces, where each element consists of further 2 sub-elements. We call them keys and values.   Dictionaries store data in key value pairs.
+```
+A = {‘ABC’:123}
+```
+This defines a basic key/value pair of dictionaries.
+We can access them individually as 
+```
+A.keys()
+A.values()
+```
+
+**5Q:- Why might you use a set instead of a list in Python?**  
+
+Ans:- Data stored in sets is free with duplicates. This is useful in certain situations.
+For example, making a list of customer that purchased your product within a month can have duplicates. Because some customers can be returning customers. 
+Storing them in a set will give a better idea of existing customer bse.
+
+**6Q:- E What is a string in Python, and how is it different from a list?**
+
+Ans:- String is a sequence of characters. It differs from list in some respects such as:
+A List is mutable, String type is immutable.
+List consists of elements which can be of different data types/heterogeneous. String is only a sequence of characters.
+String is a datatype; List is a data structure.
+  
+**7Q:- How do tuples ensure data integrity in Python?**
+
+Ans:- Data stored in tuple is preserved. It can be neither altered or deleted. Hence, it protects the integrity of data.
+
+**8Q:- What is a hash table, and how does it relate to dictionaries in Python?**
+
+Ans:- Hash table is a type of data structure which allows user to store, retrieve and delete data efficiently.
+This is efficient manner of storing data as it can be accessed in time efficient manner using hash mapping with O(1) average time.
+Hash mapping takes a key and gives the respective value.
+In python, dictionaries use hash mapping for storing and keeping data.
+Where keys are used to hash out the values that user require. 
+
+**9Q:- Can lists contain different data types in Python?**  
+Ans:- Yes, list can store heterogenous data types such as string, int, float Boolean.
+
+**10Q:- Explain why strings are immutable in Python?**  
+Ans:- Strings are immutable as they are easier to handle in terms of memory. Strings with same values are stored in the same data memory location. If strings were mutable, modifying one string would affect all other references to same string, making coding more complex.
+Also, we prefer to keep our keys constant throughout in hash mappings. Mutable strings would not provide such a consistent value throughout their lifetime. 
+
+**11Q:- E What advantages do dictionaries offer over lists for certain tasks?**
+
+Ans:- As previously discussed, dictionaries employ hash mappings. Hash tables, which are part of data structure, makes data retrieval easier and efficient.
+Whereas, in lists, we have to iterate till we get our targeted value, in dictionaries, we can exploit this advantage to do that easily. 
+
+**12Q:- Describe a scenario where using a tuple would be preferable over a list.**
+
+Ans:- Suppose you run a grocery store and want to see how many customers you had in the month of January. 
+From your database record of all purchases and customer_id etc., you can take the customer_id column, map that onto a list and then try to count that. 
+However, since a customer can be returning, there is potential of duplicates in the list. 
+On the other hand, mapping that list onto a set would eliminate all the duplicates and then you can access that record.  
+
+**13Q:- How do sets handle duplicate values in Python?**
+Ans:- Sets delete the duplicate value from the sequence of datatypes.
+
+**14Q:- How does the “in” keyword work differently for lists and dictionaries?**
+
+Ans:- ‘in’ keyword in the list can be used to test, whether an element exists in that particular list. It will return true/ false as output.
+In dictionaries, ‘in’ keyword can be used to identify and look for keys. But it cannot be used to locate values inside the dictionary.
+
+**15Q:- Can you modify the elements of a tuple? Explain why or why not?**  
+Ans:- No, the elements of a tuple are not mutable. They are carved into stone once they are defined.
+They are not mutable, so that we can have data security over important data, which is not going to change over time. For example, tuple with Aadhar numbers for individuals. 
+
+**16Q:- What is a nested dictionary, and give an example of its use case?**
+
+Ans:- Nested dictionary means dictionary exists inside a dictionary.
+For example:
+```
+	A = {‘name’:’Ravi’, ‘Country’:’India’}
+B = {‘id_number’: 8288, ‘user_name’:ravi8828, Credentials: A}
+```
+This can be used to store multi-stage data. 
+For example, a list of teacher within a school can be mapped by department initially and then inside another dictionary based on teacher position can be made.
+
+**17Q:- Describe the time complexity of accessing elements in a dictionary.**
+
+Ans:- Dictionary employ Hash mapping in its basic structure. Which makes a significant reduction in finding a value, by just mapping it with its key. The average time in execution of dictionary is O(1).
+
+**18Q:- In what situations are lists preferred over dictionaries?**
+Ans:- List are indexed by sequence, whereas dictionaries are indexed by keys. Whenever we require to store data in a sequential and ordered manner, then we prefer lists.
+
+**19Q:- Why are dictionaries considered unordered, and how does that affect data retrieval?**
+
+Ans:- Because they index data based on keys indexing, not sequential indexing. 
+This decreases the time to O(1) on average. This makes it faster to look up for values, by indexing the keys.
+
+**20Q:- Explain the difference between a list and a dictionary in terms of data retrieval.**
+
+Ans:- In list, for n elements, average time for retrieval is of order O(n). In dictionary, it is O(1). In dictionary, because of hash mapping, it is much faster.
